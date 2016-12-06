@@ -19,18 +19,67 @@ class MD5:
         self.ChunkSize = int(512/8)
         self.PadMod = int(448/8)
 
+    def _lefrRotate(self, value, shift):
+        value &= 0xffffffff
+        return ((value<<shift) | (value>> (32-shift))) & 0xffffffff
+
     def calculate(self, string):
         byteArray = bytearray(string, encoding='ascii')
         original_len = int((len(string)*8)%pow(2,64)) & 0xffffffffffffffff
 
-        byteArray.append(0x80)
+        byteArray.append(0x80)#1000 0000
         while len(byteArray) % self.ChunkSize != self.PadMod:
             byteArray.append(0)
 
-        byteArray += (original_len.to_bytes(8, 'little'))
+        byteArray += original_len.to_bytes(8, 'little')
 
         for chunkIndex in range(0, len(byteArray), self.ChunkSize):
             chunk = byteArray[chunkIndex:chunkIndex+self.ChunkSize]
+            M = [ int.from_bytes(chunk[4*i:4*(i+1)], 'little') for i in range(0,16) ]
+            #print(M)
+            a0 = self.A
+            b0 = self.B
+            c0 = self.C
+            d0 = self.D
+            F = 0
+            g = 0
+            for i in range(0,self.ChunkSize):
+                if i < 16:
+                    F = (b0 & c0) | ((~b0) & d0)
+                    g = i
+                elif i < 32:
+                    F = (d0 & b0) | ((~d0) & c0)
+                    g = (5*i + 1)%16
+                elif i < 48:
+                    F = b0 ^ c0 ^ d0
+                    g = (3*i + 5)%16
+                else:
+                    F = c0 ^ (b0 | (~d0))
+                    g = (7*i)%16
+
+                dTemp = d0
+                d0 = c0
+                c0 = b0
+                b0 = (b0 + self._lefrRotate((a0 + F + self.K[i] + M[g]),self.shift[i]))&0xffffffff
+                a0 = dTemp
+
+            self.A += a0
+            self.A &= 0xffffffff
+            self.B += b0
+            self.B &= 0xffffffff
+            self.C += c0
+            self.C &= 0xffffffff
+            self.D += d0
+            self.D &= 0xffffffff
+
+        #md5_raw = sum([self.A, self.B << 32, self.C <<64, self.D <<96])
+        md5_raw = self.A.to_bytes(8,'little')
+        md5_raw += self.B.to_bytes(8, 'little')
+        md5_raw += self.C.to_bytes(8, 'little')
+        md5_raw += self.D.to_bytes(8, 'little')
+        print(md5_raw)
+        print( ['{:02x}'.format((hex(value))) for value in md5_raw] )
+        return
 
 
 
@@ -48,7 +97,7 @@ while passwordCount < 8:
     print((int.from_bytes(byteinput[0:4],byteorder='little')))
 
     test = MD5();
-    test.calculate(input)
+    test.calculate('')
 
 
     checkInput += 1

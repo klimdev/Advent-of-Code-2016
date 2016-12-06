@@ -27,7 +27,7 @@ def left_rotate(x, amount):
 
 
 def md5(message):
-    message = bytearray(message)  # copy our input into a mutable buffer
+    message = bytearray(message, 'ascii')  # copy our input into a mutable buffer
     orig_len_in_bits = (8 * len(message)) & 0xffffffffffffffff
     message.append(0x80)
     while len(message) % 64 != 56:
@@ -55,3 +55,5 @@ def md5(message):
 def md5_to_hex(digest):
     raw = digest.to_bytes(16, byteorder='little')
     return '{:032x}'.format(int.from_bytes(raw, byteorder='big'))
+
+print(md5_to_hex(md5("")))
