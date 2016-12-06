@@ -56,4 +56,31 @@ def md5_to_hex(digest):
     raw = digest.to_bytes(16, byteorder='little')
     return '{:032x}'.format(int.from_bytes(raw, byteorder='big'))
 
-print(md5_to_hex(md5("")))
+
+input = 'abbhdwsy'
+
+
+checkInput = 0
+password = ''
+passwordCount = 0
+
+#test
+#print(md5.calculate(''))
+#print(md5.calculate("The quick brown fox jumps over the lazy dog."))
+#print(md5.calculate("The quick brown fox jumps over the lazy dog"))
+
+while len(password) < 8:
+    #print(input + str(checkInput))
+    inputCount = input + str(checkInput)
+
+    test = md5_to_hex(md5(inputCount))
+    #print(test)
+    if test[:5] == '00000':
+        password += test[5]
+        print('found at {} password {}'.format(inputCount, password))
+
+    checkInput += 1
+    if checkInput % 10000 == 0:
+        print(checkInput)
+
+print(password)
