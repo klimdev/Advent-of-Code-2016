@@ -233,6 +233,7 @@ class Solver:
                         if not self.addToQueue(downCopy):
                             del downCopy
                 del topCopy
+            del top
         return
 
     def addToQueue(self, capture):
