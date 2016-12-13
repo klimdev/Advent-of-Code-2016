@@ -14,11 +14,16 @@ class Me:
 
     def __lt__(self, other):
         #return self.step < other.step
-        return self.step**2 + self.diff < other.step**2 + other.diff
+        #return self.step**2 + self.diff < other.step**2 + other.diff
+        #return self.diff < other.diff
+        myFactor = float(self.diff)/other.diff
+        return (myFactor * self.step) < (other.step / myFactor)
 
     def __gt__(self, other):
         #return self.step > other.step
-        return self.step**2 + self.diff > other.step**2 + other.diff
+        #return self.step**2 + self.diff > other.step**2 + other.diff
+        myFactor = float(self.diff)/other.diff
+        return (myFactor * self.step) > (other.step / myFactor)
 
 
     def __eq__(self, other):
