@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50679729-5596-4384-8431-aeab63484131" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D13/AStar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D13/D13-0.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D13/D13-1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D13/D13-2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/D11/Solver.py" afterPath="$PROJECT_DIR$/D11/Solver.py" />
     </list>
     <ignored path="Advent-of-Code-2016.iws" />
@@ -43,8 +38,8 @@
       <file leaf-file-name="Solver.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/D11/Solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="28" column="28" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="35" selection-end-column="22" />
+            <state relative-caret-position="1479">
+              <caret line="232" column="30" lean-forward="true" selection-start-line="232" selection-start-column="30" selection-end-line="232" selection-end-column="30" />
               <folding>
                 <element signature="e#1#13#0" expanded="true" />
               </folding>
@@ -205,11 +200,11 @@
         <option value="$PROJECT_DIR$/D12/Compiler.py" />
         <option value="$PROJECT_DIR$/D12/D12-1.py" />
         <option value="$PROJECT_DIR$/D12/D12-2.py" />
-        <option value="$PROJECT_DIR$/D11/Solver.py" />
         <option value="$PROJECT_DIR$/D13/D13-0.py" />
         <option value="$PROJECT_DIR$/D13/D13-1.py" />
         <option value="$PROJECT_DIR$/D13/D13-2.py" />
         <option value="$PROJECT_DIR$/D13/AStar.py" />
+        <option value="$PROJECT_DIR$/D11/Solver.py" />
       </list>
     </option>
   </component>
@@ -347,7 +342,7 @@
       <recent name="D:\GitHub\Advent-of-Code-2016\D1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.D13-2">
+  <component name="RunManager" selected="Python.D11-1">
     <configuration default="false" name="D11-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -612,10 +607,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.D13-2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.D13-1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.D13-0" />
-        <item index="3" class="java.lang.String" itemvalue="Python.D11-1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.D11-1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.D13-2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.D13-1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.D13-0" />
         <item index="4" class="java.lang.String" itemvalue="Python.D12-2" />
       </list>
     </recent_temporary>
@@ -647,14 +642,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1294" height="1047" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24647887" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3329776" sideWeight="0.5027494" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3329776" sideWeight="0.4972506" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3329776" sideWeight="0.4972506" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1057,8 +1052,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/D11/Solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="28" column="28" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="35" selection-end-column="22" />
+        <state relative-caret-position="1479">
+          <caret line="232" column="30" lean-forward="true" selection-start-line="232" selection-start-column="30" selection-end-line="232" selection-end-column="30" />
           <folding>
             <element signature="e#1#13#0" expanded="true" />
           </folding>
