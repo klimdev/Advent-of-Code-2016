@@ -13,17 +13,17 @@ class Me:
         return
 
     def __lt__(self, other):
-        #return self.step < other.step
+        return self.step < other.step
         #return self.step**2 + self.diff < other.step**2 + other.diff
         #return self.diff < other.diff
-        myFactor = float(self.diff)/other.diff
-        return (myFactor * self.step) < (other.step / myFactor)
+        #myFactor = float(self.diff)/other.diff
+        #return (myFactor * self.step) < (other.step / myFactor)
 
     def __gt__(self, other):
-        #return self.step > other.step
+        return self.step > other.step
         #return self.step**2 + self.diff > other.step**2 + other.diff
-        myFactor = float(self.diff)/other.diff
-        return (myFactor * self.step) > (other.step / myFactor)
+        #myFactor = float(self.diff)/other.diff
+        #return (myFactor * self.step) > (other.step / myFactor)
 
 
     def __eq__(self, other):
@@ -35,12 +35,18 @@ class Me:
         #        break
         #return result
 
-    def __hash__(self):
-        hash = ''
+    #def __hash__(self):
+    #    hash = ''
+    #    for floor in range(0, len(self.floors)):
+    #        hash += self.floors[floor].strHash()
+    #    #print(hash)
+    #    return int(hash)
+
+    def hash(self):
+        hashStr = '{}'.format(self.floor)
         for floor in range(0, len(self.floors)):
-            hash += self.floors[floor].strHash()
-        #print(hash)
-        return int(hash)
+           hashStr += self.floors[floor].strHash()
+        return hashStr
 
     def take(self, component):
         floor = self.floors[self.floor]
@@ -61,6 +67,7 @@ class Me:
                 floor.gens.setdefault(comp.name, comp)
             else:
                 floor.chips.setdefault(comp.name, comp)
+        self.hold.clear()
         self.calcDiff()
         return
 
@@ -105,7 +112,7 @@ class Me:
         return self.floor < len(self.floors)-1
 
     def canGoDown(self):
-        return self.floor > 0 and not self.floors[self.floor].isEmpty()
+        return self.floor > 0
 
     def showStatus(self):
         print('F4 {01}: {}{}{}{}{} | {}{}{}{}{}'.format())
@@ -149,7 +156,8 @@ class Chip(Component):
         return self.__str__()
 
 class Floor:
-    def __init__(self):
+    def __init__(self, size):
+        self.size = size
         self.gens = dict()
         self.chips = dict()
         return
@@ -162,16 +170,16 @@ class Floor:
 
     def strHash(self):
         str = ''
-        for i in range(0,5):
+        for i in range(0, self.size):
             if i in self.gens:
                 str += '{}'.format(i)
             else:
-                str += '{}'.format(5+i)
-        for i in range(0, 5):
+                str += '{}'.format(self.size+i)
+        for i in range(0, self.size):
             if i in self.chips:
                 str += '{}'.format(i)
             else:
-                str += '{}'.format(5 + i)
+                str += '{}'.format(self.size + i)
         return str
 
     def checkFloor(self):
@@ -237,8 +245,8 @@ class Solver:
         return
 
     def addToQueue(self, capture):
-        if capture.isValid() and capture not in self.visited:
+        if capture.isValid() and capture.hash() not in self.visited:
             self.pq.put(capture)
-            self.visited.add(capture.__hash__())
+            self.visited.add(capture.hash())
             return True
         return False

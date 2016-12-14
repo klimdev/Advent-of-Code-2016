@@ -1,7 +1,7 @@
 
 from Solver import Floor, Generator, Chip, Solver
 
-floors = [ Floor(5) for i in range(0 ,4) ]
+floors = [ Floor(7) for i in range(0 ,4) ]
 # f0
 #floors[0].gens.setdefault('promethium', Generator('promethium'))
 #floors[0].chips.setdefault('promethium', Chip('promethium'))
@@ -21,6 +21,10 @@ floors = [ Floor(5) for i in range(0 ,4) ]
 # f0
 floors[0].gens.setdefault(0, Generator(0))
 floors[0].chips.setdefault(0, Chip(0))
+floors[0].gens.setdefault(5, Generator(5))
+floors[0].chips.setdefault(5, Chip(5))
+floors[0].gens.setdefault(6, Generator(6))
+floors[0].chips.setdefault(6, Chip(6))
 
 # f1
 floors[1].gens.setdefault(1, Generator(1))
