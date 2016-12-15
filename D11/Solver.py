@@ -3,13 +3,13 @@ import queue
 import copy
 
 class Me:
-    def __init__(self, floors):
+    def __init__(self, floors, floor = 0):
         self.hold = list()
         self.floors = copy.deepcopy(floors)
-        self.floor = 0
+        self.floor = floor
         self.step = 0
-        self.diff = 0
-        self.calcDiff()
+        self.hashString = ''
+        self.hash()
         return
 
     def __lt__(self, other):
@@ -27,7 +27,7 @@ class Me:
 
 
     def __eq__(self, other):
-        return self.__hash__() == other.__hash__()
+        return self.hashString == other.hashString
         #result = True
         #for floor in range(0, len(self.floors)):
         #    result &= str(self.floors[floor]) == str(other.floors[floor])
@@ -43,10 +43,10 @@ class Me:
     #    return int(hash)
 
     def hash(self):
-        hashStr = '{}'.format(self.floor)
+        self.hashString = '{}'.format(self.floor)
         for floor in range(0, len(self.floors)):
-           hashStr += self.floors[floor].strHash()
-        return hashStr
+            self.hashString += self.floors[floor].strHash()
+        return
 
     def take(self, component):
         floor = self.floors[self.floor]
@@ -68,20 +68,7 @@ class Me:
             else:
                 floor.chips.setdefault(comp.name, comp)
         self.hold.clear()
-        self.calcDiff()
-        return
-
-    def calcDiff(self):
-        self.diff = 0
-        i = 0
-        for floor in self.floors:
-            if i < self.floor:
-                self.diff += (4 + self.floor - 2 * i) * len(floor.gens)
-                self.diff += (4 + self.floor - 2 * i) * len(floor.chips)
-            else:
-                self.diff += (4 - i) * len(floor.gens)
-                self.diff += (4 - i) * len(floor.chips)
-        #self.diff /= 2
+        self.hash()
         return
 
     def createSets(self):
@@ -105,20 +92,11 @@ class Me:
     def isValid(self):
         return self.floors[self.floor].checkFloor()
 
-    def isDone(self):
-        return self.floors[0].isEmpty() and self.floors[1].isEmpty() and self.floors[2].isEmpty()
-
     def canGoUp(self):
         return self.floor < len(self.floors)-1
 
     def canGoDown(self):
         return self.floor > 0
-
-    def showStatus(self):
-        print('F4 {01}: {}{}{}{}{} | {}{}{}{}{}'.format())
-        print('F3 {01}: {}{}{}{}{} | {}{}{}{}{}'.format())
-        print('F2 {01}: {}{}{}{}{} | {}{}{}{}{}'.format())
-        print('F1 {01}: {}{}{}{}{} | {}{}{}{}{}'.format())
 
 class Component:
     def __init__(self, name, type):
@@ -194,16 +172,13 @@ class Floor:
 
 
 class Solver:
-    def __init__(self, floors):
+    def __init__(self, start):
         self.pq = queue.PriorityQueue()
-        self.floors = copy.deepcopy(floors)
         self.visited = set()
-        #print(x for x in floors)
-        #print(x for x in self.floors)
-        self.addToQueue(Me(self.floors))
+        self.addToQueue(start)
         return
 
-    def solve(self):
+    def solve(self, done):
         prevStep = 0
         while not self.pq.empty():
             top = self.pq.get()
@@ -212,7 +187,7 @@ class Solver:
                 prevStep = top.step
                 print(prevStep)
 
-            if top.isDone():
+            if top == done:
                 print('--------------- done ---------------------')
                 print(top.step)
                 print('------------------------------------------')
@@ -245,8 +220,8 @@ class Solver:
         return
 
     def addToQueue(self, capture):
-        if capture.isValid() and capture.hash() not in self.visited:
+        if capture.isValid() and capture.hashString not in self.visited:
             self.pq.put(capture)
-            self.visited.add(capture.hash())
+            self.visited.add(capture.hashString)
             return True
         return False

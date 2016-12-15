@@ -1,5 +1,5 @@
 
-from Solver import Floor, Generator, Chip, Solver
+from Solver import Floor, Generator, Chip, Solver, Me
 
 floors = [ Floor(7) for i in range(0 ,4) ]
 # f0
@@ -38,6 +38,14 @@ floors[2].chips.setdefault(2, Chip(2))
 floors[2].chips.setdefault(3, Chip(3))
 floors[2].chips.setdefault(4, Chip(4))
 
+done = [ Floor(7) for i in range(0 ,4) ]
+for i in range(0,7):
+    done[3].gens.setdefault(i, Generator(i))
+    done[3].chips.setdefault(i, Chip(i))
+
+start = Me(floors)
+done = Me(done, 3)
+
 #print(floors)
-solver = Solver(floors)
-solver.solve()
+solver = Solver(done)
+solver.solve(start)

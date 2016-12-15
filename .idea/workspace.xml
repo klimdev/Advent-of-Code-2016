@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50679729-5596-4384-8431-aeab63484131" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D11/D11-0.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D11/D11-2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D14/D14-0.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D14/D14-1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D14/D14-2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D14/MD5.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D14/V1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D14/V2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D14/V3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D15/D15-1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D15/D15-2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/D15/D15.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/D11/D11-1.py" afterPath="$PROJECT_DIR$/D11/D11-1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/D11/D11-2.py" afterPath="$PROJECT_DIR$/D11/D11-2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/D11/Solver.py" afterPath="$PROJECT_DIR$/D11/Solver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/D14/D14-2.py" afterPath="$PROJECT_DIR$/D14/D14-2.py" />
     </list>
     <ignored path="Advent-of-Code-2016.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,38 +32,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="D11-2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D11/D11-2.py">
+      <file leaf-file-name="D15-1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D15/D15-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="429">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D14-1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D14/D14-1.py">
+      <file leaf-file-name="D15-2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D15/D15-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="480">
+              <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="V1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D14/V1.py">
+      <file leaf-file-name="D15.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D15/D15.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D14/__init__.py">
+        <entry file="file://$PROJECT_DIR$/D15/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -76,31 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="D14-0.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D14/D14-0.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="D14-2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/D14/D14-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-              <folding />
+            <state relative-caret-position="500">
+              <caret line="71" column="113" lean-forward="false" selection-start-line="71" selection-start-column="113" selection-end-line="71" selection-end-column="113" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="V3.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/D14/V3.py">
+      <file leaf-file-name="threading.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/threading.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="46" column="59" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
+            <state relative-caret-position="194">
+              <caret line="839" column="0" lean-forward="false" selection-start-line="839" selection-start-column="0" selection-end-line="839" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/D14/V2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
+              <caret line="6" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -119,8 +107,18 @@
       <file leaf-file-name="D11-1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/D11/D11-1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="14" />
+            <state relative-caret-position="612">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codecs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5491">
+              <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,7 +127,7 @@
       <file leaf-file-name="MD5.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/D14/MD5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-304">
+            <state relative-caret-position="663">
               <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="17" />
               <folding />
             </state>
@@ -153,6 +151,8 @@
       <find>61</find>
       <find>deepco</find>
       <find>print</find>
+      <find>hash()</find>
+      <find>floors</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,9 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/D5/Test.py" />
-        <option value="$PROJECT_DIR$/D5/MD5.py" />
-        <option value="$PROJECT_DIR$/D5/D5-1.py" />
         <option value="$PROJECT_DIR$/D5/D5-2.py" />
         <option value="$PROJECT_DIR$/D6/D6.txt" />
         <option value="$PROJECT_DIR$/D6/D6.py" />
@@ -202,15 +199,18 @@
         <option value="$PROJECT_DIR$/D13/D13-2.py" />
         <option value="$PROJECT_DIR$/D13/AStar.py" />
         <option value="$PROJECT_DIR$/D11/D11-0.py" />
-        <option value="$PROJECT_DIR$/D11/D11-1.py" />
-        <option value="$PROJECT_DIR$/D11/Solver.py" />
-        <option value="$PROJECT_DIR$/D11/D11-2.py" />
         <option value="$PROJECT_DIR$/D14/MD5.py" />
         <option value="$PROJECT_DIR$/D14/V1.py" />
         <option value="$PROJECT_DIR$/D14/V2.py" />
         <option value="$PROJECT_DIR$/D14/V3.py" />
         <option value="$PROJECT_DIR$/D14/D14-1.py" />
         <option value="$PROJECT_DIR$/D14/D14-0.py" />
+        <option value="$PROJECT_DIR$/D11/D11-1.py" />
+        <option value="$PROJECT_DIR$/D11/D11-2.py" />
+        <option value="$PROJECT_DIR$/D11/Solver.py" />
+        <option value="$PROJECT_DIR$/D15/D15.txt" />
+        <option value="$PROJECT_DIR$/D15/D15-1.py" />
+        <option value="$PROJECT_DIR$/D15/D15-2.py" />
         <option value="$PROJECT_DIR$/D14/D14-2.py" />
       </list>
     </option>
@@ -252,7 +252,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -336,92 +335,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="D10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="D09" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="D08" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="D07" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="D06" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Advent-of-Code-2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="D05" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,7 +363,7 @@
       <recent name="C:\Users\v-kiklim\Documents\GitHub\Advent-of-Code-2016" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.D14-0">
+  <component name="RunManager" selected="Python.D14-2">
     <configuration default="false" name="D11-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -482,36 +398,36 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="D14-0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="D15-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Advent-of-Code-2016" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D14/D14-0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D15/D15-1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="D14-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="D15-2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D14" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/D15" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Advent-of-Code-2016" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D14/D14-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D15/D15-2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -706,15 +622,15 @@
       <item index="1" class="java.lang.String" itemvalue="Python.Display" />
       <item index="2" class="java.lang.String" itemvalue="Python.D11-1" />
       <item index="3" class="java.lang.String" itemvalue="Python.D11-2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.D14-0" />
-      <item index="5" class="java.lang.String" itemvalue="Python.D14-1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.D15-1" />
+      <item index="5" class="java.lang.String" itemvalue="Python.D15-2" />
       <item index="6" class="java.lang.String" itemvalue="Python.D14-2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.D14-0" />
-        <item index="1" class="java.lang.String" itemvalue="Python.D14-1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.D14-2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.D14-2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.D15-2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.D15-1" />
         <item index="3" class="java.lang.String" itemvalue="Python.D11-2" />
         <item index="4" class="java.lang.String" itemvalue="Python.D11-1" />
       </list>
@@ -749,16 +665,16 @@
     <frame x="-7" y="0" width="1291" height="1047" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24705882" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25139666" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3329776" sideWeight="0.5027494" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3329776" sideWeight="0.4972506" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33260393" sideWeight="0.4972506" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4091904" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -798,58 +714,31 @@
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D11/Solver.py</url>
-          <line>215</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/D15/D15-1.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D11/Solver.py</url>
-          <line>244</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/D11/Solver.py</url>
-          <line>206</line>
-          <option name="timeStamp" value="53" />
+          <url>file://$PROJECT_DIR$/D14/D14-2.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="62" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="103" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/D07/D7-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D07/D7-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D08/D8.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="104" column="4" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D08/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -969,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5236">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/copy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4012">
@@ -995,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1060,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1068,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1076,17 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D11/Solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="247" column="28" lean-forward="false" selection-start-line="247" selection-start-column="28" selection-end-line="247" selection-end-column="28" />
-          <folding>
-            <element signature="e#1#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="21" lean-forward="false" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1102,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
           <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2227">
           <caret line="131" column="36" lean-forward="false" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,54 +985,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D11/D11-2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D11/D11-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D14/V1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
+        <state relative-caret-position="986">
           <caret line="58" column="16" lean-forward="false" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D11/D11-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D14/V2.py">
+    <entry file="file://$PROJECT_DIR$/D11/Solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="e#1#13#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D14/V3.py">
+    <entry file="file://$PROJECT_DIR$/D14/D14-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="46" column="59" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/D14/MD5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="17" />
+        <state relative-caret-position="255">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1186,19 +1029,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/D14/D14-1.py">
+    <entry file="file://$PROJECT_DIR$/D14/V3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="782">
+          <caret line="46" column="59" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D14/V2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D11/D11-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5491">
+          <caret line="323" column="0" lean-forward="false" selection-start-line="323" selection-start-column="0" selection-end-line="323" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D14/MD5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="17" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D15/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D15/D15.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D15/D15-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D15/D15-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35-32/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="839" column="0" lean-forward="false" selection-start-line="839" selection-start-column="0" selection-end-line="839" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D14/D14-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="51" column="42" lean-forward="true" selection-start-line="51" selection-start-column="42" selection-end-line="51" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="500">
+          <caret line="71" column="113" lean-forward="false" selection-start-line="71" selection-start-column="113" selection-end-line="71" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
