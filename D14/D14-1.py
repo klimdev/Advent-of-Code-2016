@@ -4,7 +4,7 @@ md5 = MD5()
 hexList = ['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f']
 
 foundList = list()
-targetFoundListSize = 64
+targetFoundListSize = 65
 possibleAnswer = dict()
 for h in hexList:
     possibleAnswer.setdefault(h,list())
@@ -43,10 +43,11 @@ while len(foundList) < targetFoundListSize:
     for min5letter in min5letterList:
         answerList = possibleAnswer[min5letter]
         for i in range(0, len(answerList)):
-            if index < answerList[i] + maxGap:
-                print('{}:: at index {} letter {}'.format(len(foundList),answerList[i], min5letter))
+            #if index < answerList[i] + maxGap:
                 if answerList[i] not in foundList:
+                    print('{}:: at index {} letter {} by index {}'.format(len(foundList),answerList[i], min5letter, index))
                     foundList.append(answerList[i])
+                    #min3letterList.clear()
 
 
     if len(min5letterList):
@@ -59,4 +60,4 @@ while len(foundList) < targetFoundListSize:
 
 foundList.sort()
 print(foundList)
-print(foundList[targetFoundListSize])
+print(foundList[targetFoundListSize-1])

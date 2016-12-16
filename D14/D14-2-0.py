@@ -76,7 +76,7 @@ class MD5Pool:
 
 index = 0
 maxGap = 1000
-input = 'zpqevtbw'
+input = 'abc'
 md5pool = MD5Pool(input,8)
 
 while len(foundList) < targetFoundListSize:
