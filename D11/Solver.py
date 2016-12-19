@@ -43,7 +43,7 @@ class Me:
     #    return int(hash)
 
     def hash(self):
-        self.hashString = '{}'.format(self.floor)
+        self.hashString = '{}-'.format(self.floor)
         for floor in range(0, len(self.floors)):
             self.hashString += self.floors[floor].strHash()
         return
@@ -152,12 +152,12 @@ class Floor:
             if i in self.gens:
                 str += '{}'.format(i)
             else:
-                str += '{}'.format(self.size+i)
+                str += '.'
         for i in range(0, self.size):
             if i in self.chips:
                 str += '{}'.format(i)
             else:
-                str += '{}'.format(self.size + i)
+                str += '.'
         return str
 
     def checkFloor(self):
@@ -207,16 +207,12 @@ class Solver:
                     if topCopy.canGoUp():
                         upCopy = copy.deepcopy(topCopy)
                         upCopy.move(1)
-                        if not self.addToQueue(upCopy):
-                            del upCopy
+                        self.addToQueue(upCopy)
                     #move down
                     if topCopy.canGoDown():
                         downCopy = copy.deepcopy(topCopy)
                         downCopy.move(-1)
-                        if not self.addToQueue(downCopy):
-                            del downCopy
-                del topCopy
-            del top
+                        self.addToQueue(downCopy)
         return
 
     def addToQueue(self, capture):
